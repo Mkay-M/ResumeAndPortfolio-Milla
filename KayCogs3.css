@@ -1,0 +1,261 @@
+body {font-family: 'Fredoka';}
+
+.container-fluid {
+    padding: 3% 7%;
+    margin: auto;
+    height: auto;
+}
+.btn {
+    font-family: 'Fredoka',sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*NAVIGATION BAR*/
+    .title_icon {
+        padding-right: 2.5rem;
+        color: #C8E6C9;
+    }
+    i:hover {
+        color:#FEDC97;
+        margin-bottom: 1rem;
+    }
+    .navbar-brand {
+        font-family: 'Marko One';
+        font-size: 2.5rem;
+        font-weight: lighter;
+    }
+    .navbar {
+        padding: 0 0 1.5rem;
+    }
+    .welcome {
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+    }
+    .nav-item {
+        padding: 0 18px;
+    }
+    .navbar-link {
+        font-family: 'Marko One', sans-serif;
+        font-size: 1.5rem;
+        color:#C8E6C9;
+    }
+    h1.welcome {
+        color:#fff;
+    }
+
+/*CONTACT BUTTON*/
+    .download-button {
+        margin: 5% 3% 5% 0;
+    }
+
+/*ABOUT*/
+    #about-header {
+        background-color: #28666E;
+        padding: 3%;
+        text-align: center;
+    }
+    h1.about-header {
+        font-family: 'Marko One';
+        font-weight: bolder;
+        color:#FFF;
+    }
+    .about-image {
+        width: 15%;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    #about {
+        padding: 2% 5%;
+        background-color: #C8E6C9;
+        border-radius: 5%;
+        text-align: center;
+    }
+    p.about-para {
+        color:#28666E;
+        font-family: 'Fredoka', sans-serif;
+    }
+    i.icon-about {
+        color:#FFF;
+        padding-bottom: 1rem;
+    }
+    i.icon-about:hover {
+        color:#FEDC97;
+        margin-bottom: 1rem;
+    }
+    h1.about {
+        text-align: left;
+        color:#FFF;
+    }
+    .card-header {
+        color:#FFF;
+        background-color: #121212;
+        font-family: 'Fredoka', sans-serif;
+        font-weight: bolder;
+    }
+    .card-body {
+        color:#28666E;
+        height:225px;
+    }
+
+/*ARTWORK*/
+    h1.artwork_title {
+        background-color:#033F63;
+        font-family: 'Marko One';
+        font-size: 75px;
+        text-align: center;
+        color:#FFF;
+    }
+    #artwork {
+        padding: 3% 15%;
+        text-align: center;
+        background-color: #FFF;
+    }
+    #art-buttons {
+        width: 100%;
+    }
+    .nav-art-image {
+        margin:10px;
+        width: 105px;
+        height: 150px;
+    }
+    .artwork_icon {
+        padding-right: 2.5rem;
+        color: #28666E;
+    }
+    .art-button-link {
+        font-family: 'Fredoka';
+        color:#121212;
+    }
+
+    /*MARIPOSA CAROUSEL*/
+    .carousel-item {
+        padding: 7% 10%;
+        background-color: #FFF;
+    }
+    .artwork-image {
+        width: 60%;
+    }
+    #mycarousel {
+        padding: 3% 20%;
+        text-align: center;
+        background-color: #7C9885;
+    }
+    .press-logo {
+        width: 25%;
+        margin: 20px 20px 50px;
+    }
+    .card-body-mari {
+        height: fit-content;
+    }
+    
+    em {
+        text-align: center;
+    }
+    .head-desc {
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'Marko One';
+        color:#FFF;
+    }
+    .desc {
+        text-align: center;
+        padding: 3% 5%;
+        font-family: 'Fredoka', sans-serif;
+        color:#121212;
+    }
+    .artheader {
+        background-color: #033F63;
+        color:#FFF;
+        text-align: center;
+    }
+
+    /*UPDOWNTIME*/
+        #updowntime {
+            padding: 3% 5%;
+            text-align: center;
+            background-color: #C8E6C9;
+            position: relative;
+            z-index: 1;
+        }
+        .updowntime-image {
+            width: 75%;
+            margin: 20px 20px 50px;
+            margin-bottom: 1%;
+        }
+    /*GAME JAM*/
+        #gamejam {
+            padding: 3% 5%;
+            text-align: center;
+            background-color: #B5B682;
+            position: relative;
+            z-index: 1;
+        }
+        .gamejam-image {
+            width: 50%;
+            margin: 20px 20px 50px;
+        }
+    /*POSTERS*/
+        #posters {
+            padding: 3% 5%;
+            text-align: center;
+            background-color: #C8E6C9;
+            position: relative;
+            z-index: 1;
+        }
+        .poster-image {
+            width: 70%;
+            margin: 20px 20px 50px;
+        }
+
+/*CTA*/
+    #cta {
+        background-color: #033F63;
+        color: #fff;
+        padding: 5% 10%;
+        text-align: center;
+    }
+    .cta-heading {
+        font-weight: bold;
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+
+/*FOOTER*/
+#footer {
+    padding: 3%;
+    text-align: center;
+}
+
+/*TITLE IMAGE*/
+    .title-image {
+        width: 60%;
+        transform: rotate(15deg);
+        position:absolute;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    #title {
+        background-color: #033F63;
+        height:65rem;
+    }
+    @media (max-width: 1028px) {
+        #title {
+            text-align: center;
+            height:auto;
+        }
+        .title-image {
+            position: static;
+            transform: rotate(0);
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .welcome {
+            padding-top: 2rem;
+        }
+}
